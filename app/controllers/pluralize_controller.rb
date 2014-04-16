@@ -1,6 +1,6 @@
 class PluralizeController < ApplicationController
   def show
-    @word = "word to pluralize"
+    @word = "singular word"
   end
 
   def create

@@ -43,10 +43,10 @@ h1 {
   margin-left: 40px;
 }
 
-::-webkit-input-placeholder { color: rgba(0,0,0,1); }
-::-moz-placeholder { color:#f00; } /* firefox 19+ */
-:-ms-input-placeholder { color:#f00; } /* ie */
-input:-moz-placeholder { color:#f00; }
+::-webkit-input-placeholder { color: rgba(169,236,255,1); }
+::-moz-placeholder { color: rgba(169,236,255,1); } /* firefox 19+ */
+:-ms-input-placeholder { color: rgba(169,236,255,1); } /* ie */
+input:-moz-placeholder { color: rgba(169,236,255,1); }
 
 
 #word {
@@ -60,6 +60,7 @@ input:-moz-placeholder { color:#f00; }
   transition: 1s;
   background-color: white;
   text-align: center;
+  background-color: rgba(60,60,60,1)
 }
 
 
@@ -69,7 +70,6 @@ input:-moz-placeholder { color:#f00; }
   color: rgba(0,0,0,0.7);
   transition: 1s;
 }
-
 
 .button input {
   height: 50px;
