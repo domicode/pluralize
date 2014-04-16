@@ -1,0 +1,7 @@
+<h1>Pluralize#show</h1>
+
+
+<%= form_tag pluralize_path, :method => "post" do %>
+<%= text_field_tag :word, nil, :placeholder => @word %>
+<%= submit_tag "Pluralize!" %>
+<% end %>
