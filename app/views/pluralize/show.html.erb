@@ -1,7 +1,12 @@
-<h1>Pluralize#show</h1>
+<div class="singlecontent">
+  <h1>pluralize</h1>
 
+    <div class="pluralize">
+      <%= form_tag pluralize_path, :method => "post" do %>
+      <div class="input"><%= text_field_tag :word, nil, :placeholder => @word, :autocomplete => "off" %></div>
+      <div class="button"><%= submit_tag "pluralize!" %></div>
+      <% end %>
+    </div>
 
-<%= form_tag pluralize_path, :method => "post" do %>
-<%= text_field_tag :word, nil, :placeholder => @word %>
-<%= submit_tag "Pluralize!" %>
-<% end %>
+  <div class="help">Pluralize is a easy and fast way to pluralize your words. Just enter the word and click pluralize</div>
+</div>

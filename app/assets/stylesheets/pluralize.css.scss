@@ -1,3 +1,109 @@
 // Place all the styles related to the pluralize controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box; 
+}
+
+
+html {
+  background: url(http://www.domidesign.ch/photography.domidesign.ch/galleries/2012116rcloudsea/images/DSC_6179.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+.content {
+  margin-left: 33%;
+  width: 33%;
+  text-align: center;
+  font-family: "Century Gothic", Arial, sans-serif;
+}
+
+.singlecontent {
+  margin-left: 15%;
+}
+
+.pluralize {
+  height: 110px;
+  width: 400px;
+  box-shadow: 0 0px 15px 10px rgba(169,236,255,0.7);
+  border-radius: 25px;
+}
+
+.input {
+  margin-top: 15%;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-left: 40px;
+}
+
+::-webkit-input-placeholder { color: rgba(0,0,0,1); }
+::-moz-placeholder { color:#f00; } /* firefox 19+ */
+:-ms-input-placeholder { color:#f00; } /* ie */
+input:-moz-placeholder { color:#f00; }
+
+
+#word {
+  height: 60px;
+  width: 400px; 
+  font-size: 2rem;
+  padding: 10px 20px; 
+  border-radius: 25px 25px 0px 0px;
+  border: none;
+  color: black;
+  transition: 1s;
+  background-color: white;
+  // border-top: 5px solid white;
+  // border-left: 5px solid white; 
+  // border-right: 5px solid white;
+  text-align: center;
+}
+
+
+#word:focus {
+  outline: none;
+  background-color: rgba(169,236,255,1);
+  color: rgba(0,0,0,0.7);
+  transition: 1s;
+}
+
+
+.button input {
+  height: 50px;
+  width: 400px;
+  border-radius: 0px 0px 25px 25px;
+  background-color: rgba(255,197,172,1);
+  color: black; 
+  font-size: 1.5rem;
+  border: none;
+  transition: 0.8s;
+  // border-bottom: 5px solid white;
+  // border-left: 5px solid white;
+  // border-right: 5px solid white;
+}
+
+.button input:hover {
+  background-color: rgba(169,236,255,1);
+  transition: 0.5s;
+  color: grey;
+}
+
+.button input:active {
+  outline: none;
+}
+
+.button input:focus {
+  outline: none;
+}
+
+.help {
+  margin-top: 10%;
+  color: white; 
+  width: 400px;
+}

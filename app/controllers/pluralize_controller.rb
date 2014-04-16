@@ -1,11 +1,10 @@
 class PluralizeController < ApplicationController
   def show
-    @word = ""
+    @word = "word to pluralize"
   end
 
   def create
     @word = params[:word].pluralize
-    puts @word
     render :show
   end
 end
