@@ -89,8 +89,10 @@ input:-moz-placeholder { color: rgba(169,236,255,1); }
   color: grey;
 }
 
+
 .button input:active {
   outline: none;
+  background-color: rgba(255,255,255,1);
 }
 
 .button input:focus {
