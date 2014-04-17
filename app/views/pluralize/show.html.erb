@@ -1,6 +1,7 @@
 <div class="singlecontent">
   <h1>plural!ze</h1>
 
+
     <div class="pluralize">
       <%= form_tag pluralize_path, :method => "post" do %>
       <div class="input"><%= text_field_tag :word, nil, :placeholder => @word, :autocomplete => "off" %></div>
@@ -8,5 +9,9 @@
       <% end %>
     </div>
 
+  <div class="info"><%= flash[:info] %></div>
+
   <div class="help">Pluralize is a easy and fast way to pluralize words. Just enter the word in singular and click pluralize.</div>
+
+
 </div>
