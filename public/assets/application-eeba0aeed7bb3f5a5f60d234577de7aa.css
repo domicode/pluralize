@@ -900,17 +900,12 @@ html {
   background-size: cover;
 }
 
-/* line 19, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 20, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 .content {
-  margin-left: 33%;
-  width: 33%;
+  width: 400px;
+  margin: 0px auto;
   text-align: center;
   font-family: "Century Gothic", Arial, sans-serif;
-}
-
-/* line 26, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
-.singlecontent {
-  margin-left: 15%;
 }
 
 /* line 30, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
@@ -929,32 +924,31 @@ html {
 /* line 41, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 h1 {
   font-size: 4rem;
-  margin-left: 40px;
 }
 
-/* line 46, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 45, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 ::-webkit-input-placeholder {
   color: #a9ecff;
 }
 
-/* line 47, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 46, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 ::-moz-placeholder {
   color: #a9ecff;
 }
 
 /* firefox 19+ */
-/* line 48, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 47, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 :-ms-input-placeholder {
   color: #a9ecff;
 }
 
 /* ie */
-/* line 49, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 48, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 input:-moz-placeholder {
   color: #a9ecff;
 }
 
-/* line 52, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 51, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 #word {
   height: 60px;
   width: 400px;
@@ -969,7 +963,7 @@ input:-moz-placeholder {
   background-color: #3c3c3c;
 }
 
-/* line 67, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 66, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 #word:focus {
   outline: none;
   background-color: #a9ecff;
@@ -977,7 +971,7 @@ input:-moz-placeholder {
   transition: 1s;
 }
 
-/* line 74, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 73, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 .button input {
   height: 50px;
   width: 400px;
@@ -989,7 +983,7 @@ input:-moz-placeholder {
   transition: 0.8s;
 }
 
-/* line 86, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 85, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 .button input:hover {
   background-color: #a9ecff;
   transition: 0.5s;
@@ -999,16 +993,45 @@ input:-moz-placeholder {
 /* line 92, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 .button input:active {
   outline: none;
+  background-color: white;
 }
 
-/* line 96, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 97, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 .button input:focus {
   outline: none;
 }
 
-/* line 100, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+/* line 101, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+.info {
+  margin-top: 10%;
+  color: white;
+}
+
+/* line 106, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
 .help {
   margin-top: 10%;
   color: white;
-  width: 400px;
+}
+
+/* line 111, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+.social-media {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+}
+
+/* line 117, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+.fb-share-button {
+  float: left;
+}
+
+/* line 122, /Users/dominiqueschuwey/Documents/Coding/projects/pluralize/app/assets/stylesheets/pluralize.css.scss */
+.footer a {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: grey;
+  font-family: "Century Gothic", Arial, sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
 }
